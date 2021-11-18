@@ -1,8 +1,8 @@
 import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
-from tensorflow.keras.layers import Conv2D, BatchNormalization, Activation, MaxPool2D, Conv2DTranspose, Concatenate, Input
-from tensorflow.keras.layers import AveragePooling2D, GlobalAveragePooling2D, UpSampling2D, Reshape, Dense
+from tensorflow.keras.layers import *
+from tensorflow.keras.layers import *
 from tensorflow.keras.models import Model
 from tensorflow.keras.applications import ResNet50
 import tensorflow as tf
